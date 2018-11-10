@@ -22,7 +22,7 @@ public class Carrera implements Serializable, Comparable<Carrera> {
  
   
   public static final String[]
-          DatosCarrera ={ "ID","Nombre","Fecha","Lugar","maxcorredores","Corredores","Estado"};
+          Datos ={ "ID","Nombre","Fecha","Lugar","maxcorredores","Corredores","Estado"};
  //constructor
 
     public Carrera(String id, String nombre, Date fecha, String lugar, int maxCorredor) {

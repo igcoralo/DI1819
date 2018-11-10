@@ -13,7 +13,7 @@ public class Corredor implements Serializable, Comparable<Corredor>, Cloneable {
     private Date fechanacimiento;
     private String direccion;
     private String telefono;
-    public static final String[] DatosCorredor={"nombre", "DNI", "Fecha de nacimento", "Direccion", "Telefono"};
+    public static final String[] Datos={"nombre", "DNI", "Fecha de nacimento", "Direccion", "Telefono"};
    
     //constructor por defecto
     public Corredor() {
