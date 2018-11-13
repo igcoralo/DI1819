@@ -3,22 +3,15 @@ package utils;
 
 //gestiona la transferencia de objetos .abrir antes cerrarlo despues
 
-import java.io.EOFException;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.OutputStream;
-import java.util.Objects;
+import java.io.*;
 
 
 
 
 
-public class FicheroObjetos<T extends Objects> {
+
+
+public class FicheroObjetos<T extends Object> {
     //atributos
   private File fichero;
   private ObjectInputStream sio;
