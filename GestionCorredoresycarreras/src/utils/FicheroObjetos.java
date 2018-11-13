@@ -35,9 +35,9 @@ public class FicheroObjetos<T extends Object> {
     }
     }
     
-    public void abrirFicheroEscritor(boolean add) throws FileNotFoundException, IOException{
+    public void abrirFicheroEscritor(boolean anadir) {
     try{
-    sof=new FileOutputStream(fichero,add);
+    sof=new FileOutputStream(fichero,anadir);
     soo=new ObjectOutputStream(sof);
     ad=new ADD(sof);
        }catch(FileNotFoundException e){
