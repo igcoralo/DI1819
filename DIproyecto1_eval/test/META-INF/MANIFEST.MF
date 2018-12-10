@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Package-Title: EaSynth Look and Feel V1.11
+LookAndFeelClass: com.easynth.lookandfeel.EaSynthLookAndFeel
+Copyright-Owner: EASYNTH SOLUTION INC. LTD
+Plugin-Version: 1.11
+License-Info: Licensed under the Apache License, Version 2.0
+
